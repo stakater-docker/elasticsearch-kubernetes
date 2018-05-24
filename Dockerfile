@@ -1,4 +1,6 @@
-FROM stakater/elasticsearch:6.2.4
+# TODO: change to stakater image
+FROM quay.io/pires/docker-elasticsearch:6.2.4
+#FROM stakater/elasticsearch:6.2.4 ## doesn't work!
 
 MAINTAINER Stakater Team <hello@stakater.com>
 
