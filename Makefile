@@ -2,7 +2,7 @@
 
 .DEFAULT_GOAL := help
 
-TAG ?= 6.1.3
+TAG ?= 6.2.4
 PREFIX ?= stakater
 IMAGE ?= elasticsearch-kubernetes
 
