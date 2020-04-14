@@ -20,6 +20,7 @@ http:
   cors:
     enabled: ${HTTP_CORS_ENABLE}
     allow-origin: ${HTTP_CORS_ALLOW_ORIGIN}
+    allow-headers: ${HTTP_CORS_ALLOW_HEADERS}
 
 discovery:
   zen:

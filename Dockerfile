@@ -12,6 +12,7 @@ ENV DISCOVERY_SERVICE elasticsearch-discovery
 ENV STATSD_HOST=statsd.statsd.svc.cluster.local
 ENV SEARCHGUARD_SSL_TRANSPORT_ENABLED=true
 ENV SEARCHGUARD_SSL_HTTP_ENABLED=true
+ENV HTTP_CORS_ALLOW_HEADERS="X-Requested-With, Content-Type, Content-Length"
 
 # Why?
 ## otherwise it fails with `mktemp: Invalid argument`
